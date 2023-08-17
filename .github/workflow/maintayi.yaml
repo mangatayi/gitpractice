@@ -13,7 +13,7 @@ jobs:
     - name: zip the code
       run: zip -r python.zip helloworld.py
     - name: list directory
-      run: ls -la      
+      run: ls -al      
     - name: aws list
       run: aws --version
     - name: update lambda function
